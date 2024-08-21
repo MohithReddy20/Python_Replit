@@ -1,0 +1,46 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container for Centering */
+.button-container {
+    text-align: center;
+}
+
+/* Stylish Button */
+.center-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #FF6F61;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+/* Button Hover Effect */
+.center-button:hover {
+    background-color: #ff8a73;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+/* Button Active Effect */
+.center-button:active {
+    transform: translateY(2px);
+}
