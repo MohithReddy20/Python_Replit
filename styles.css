@@ -20,6 +20,11 @@ body {
     text-align: center;
 }
 
+/* Remove link default styles */
+.button-link {
+    text-decoration: none;
+}
+
 /* Stylish Button */
 .center-button {
     padding: 15px 30px;
